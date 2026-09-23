@@ -158,6 +158,8 @@ io.on('connection', socket => {
 
   socket.on('disconnect', () => leaveCurrentRoom(socket));
 });
+const PORT = process.env.PORT || 3000;
 
-const port = Number(process.env.PORT || 3001);
-httpServer.listen(port, '0.0.0.0', () => console.log(`Skribbl Clone server running on port ${port}`));
+server.listen(PORT, "0.0.0.0", () => {
+  console.log(`Server running on port ${PORT}`);
+});
