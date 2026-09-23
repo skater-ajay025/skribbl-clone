@@ -1,0 +1,5 @@
+{
+  "animals": ["cat", "dog", "elephant", "tiger", "lion", "rabbit", "monkey", "penguin", "giraffe", "butterfly", "dolphin", "panda", "horse", "snake", "owl"],
+  "objects": ["laptop", "phone", "umbrella", "camera", "bicycle", "chair", "clock", "guitar", "backpack", "rocket", "pizza", "crown", "book", "key", "glasses"],
+  "actions": ["running", "swimming", "dancing", "sleeping", "cooking", "flying", "jumping", "reading", "singing", "driving", "climbing", "laughing", "painting", "skating", "walking"]
+}
